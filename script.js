@@ -6,5 +6,5 @@ document.getElementById('calcForm').addEventListener('submit', function (event) 
         sum += i;
 
     }
-    console.log(sum, "Сума");
+    document.getElementById('result').textContent = sum;
 });
